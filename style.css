@@ -1,0 +1,285 @@
+.carousel-item img {
+    height: 720px;
+}
+
+.navbar {
+    margin-top: -600px;
+    /* background-color: #f5f3f0; */
+    background-color: none;
+    height: 90px;
+    width: 1230px;
+    margin-left: -90px;
+}
+
+.carousel-caption h1 {
+
+    z-index: 8;
+    font-family: "Vollkorn";
+    height: auto;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    white-space: normal;
+    width: 100%;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    text-align: center;
+    line-height: 100px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 78px;
+
+}
+
+.container-fluid h1 {
+    font-family: "Vollkorn";
+}
+
+.container-fluid h5 {
+    color: grey;
+}
+
+.container-fluid p {
+    color: grey;
+    line-height: 33px;
+}
+
+.element_container {
+    margin-top: 70px;
+    height: 430px;
+    border-style: double;
+    border-width: 12px;
+    margin-right: 60px;
+}
+
+.logoh img {
+    height: 130px;
+}
+
+.rating {
+    margin: 25px 0;
+    color: #ddc29b;
+    font-size: 24px;
+}
+
+.rating h5 {
+    color: #606060;
+    font-size: 24px;
+    font-family: 'Vollkorn';
+    margin-top: 19px;
+    font-weight: 600;
+}
+
+.rating p {
+    color: #a3a3a3;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.recom li {
+    list-style-type: none;
+    display: inline-block;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.recom span {
+    color: rgb(37, 175, 230);
+}
+
+.rooms {
+    height: 540px;
+    margin-top: 100px;
+    background-color: #f9f4ef;
+}
+
+.container h1 {
+    font-family: 'Vollkorn';
+    padding-top: 60px;
+    color: #4a4949;
+}
+
+.container h5 {
+    color: #848484;
+    font-weight: 600;
+}
+
+.roomsds img {
+    margin-left: -1px;
+    border-radius: 8px;
+}
+
+.roomsds:hover img {
+    transform: scale(1.05);
+}
+
+.roomsds img {
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+}
+
+.roomsds {
+    position: relative;
+}
+
+.roomsds p {
+    position: absolute;
+    bottom: 0;
+    font-weight: 600;
+    color: rgb(136, 134, 134);
+    margin-left: 23px;
+    font-size: 20px;
+}
+
+.lpace h6 {
+    color: #848484;
+    margin-bottom: 40px;
+}
+
+.swmp p {
+    line-height: 16px;
+    margin-top: -5px;
+
+}
+
+.super li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+
+.card2:hover img {
+    transform: scale(1.06);
+}
+
+.card2 img {
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+    border-radius: 8px;
+}
+
+.card2 p {
+    position: absolute;
+    bottom: -44px;
+    font-weight: 600;
+    color: black;
+    margin-left: 23px;
+    font-size: 20px;
+}
+
+.card-body img {
+    border-radius: 90px;
+    height: 80px;
+    margin-top: -58px;
+
+}
+
+.rate {
+    margin: 25px 0;
+    color: #f2b765;
+    font-size: 15px;
+}
+
+.caexp img {
+    width: 100%;
+    height: 340px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.sar {
+    margin-top: -40px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+
+.caexp img {
+    opacity: 0.7;
+    transition: 1s ease;
+}
+
+.caexp img:hover {
+    opacity: 5.9;
+    transition: 0.01s ease;
+
+}
+
+.staff img {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    position: relative;
+
+
+}
+
+.card span {
+    top: 10px;
+    left: 10px;
+    font-weight: 600;
+    position: absolute;
+    z-index: 2;
+    transform-origin: 0 0;
+    background: rgb(0 0 0 / 20%);
+    color: #fff;
+    padding: 2px 10px;
+    border-radius: 2px;
+    line-height: 24px;
+    font-size: 14px;
+    letter-spacing: .5px;
+    transform: rotate(270deg) translateX(-100%);
+}
+
+.icons i {
+    list-style-type: none;
+    background: #fff;
+    border: 1px solid #ededed;
+   color: #373a3f;
+     border-radius: 8px;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    margin-right: 10px;
+    text-align: center;
+    transition: .3s; 
+
+}
+
+.icons i:hover {
+    background-color: #a3a3a3;
+}
+.payment h6{
+    font-weight: 600;
+    color: #787575;
+}
+.payment i{
+    font-size: 20px;
+}
+.links p{
+    line-height: 20px;
+    color: #656565;
+}
+.himara p{
+    color: #656565;
+}
+.line hr{
+    margin-top: -70px;
+}
+.footer li{
+    display: inline-block;
+    margin-left: 20px;
+    color: #656565;
+}
